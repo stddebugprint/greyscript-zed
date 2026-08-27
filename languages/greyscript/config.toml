@@ -1,0 +1,7 @@
+name = "Greyscript"
+# grammar = "greyscript"
+
+path_suffixes = ["src"]
+
+[[language_servers]]
+name = "greybel-languageserver"

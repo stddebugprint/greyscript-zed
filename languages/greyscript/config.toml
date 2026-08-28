@@ -1,7 +1,10 @@
-name = "Greyscript"
-# grammar = "greyscript"
+name = "greyscript"
+scope = "source.greyscript"
+grammar = "miniscript"
+line_comments = ["//"]
+block_comment = ["/*", "*/"]
+# path_suffixes = ["src"]
+file_types = ["gs", "ms", "src"]
 
-path_suffixes = ["src"]
-
-[[language_servers]]
-name = "greybel-languageserver"
+#[[language_servers]]
+#name = "greybel-languageserver"

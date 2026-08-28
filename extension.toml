@@ -8,4 +8,8 @@ repository = "https://github.com/stddebugprint/greyscript-zed"
 
 [language_servers.greybel-languageserver]
 name = "Greybel Language Server"
-languages = ["Greyscript"]
+languages = ["greyscript"]
+
+[grammars.miniscript]
+repository = "https://github.com/ayecue/tree-sitter-miniscript"
+commit = "361b87bf451ff7879d78ba45ffa3fcd32540a271"
